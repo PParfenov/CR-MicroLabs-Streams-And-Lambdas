@@ -17,7 +17,7 @@ public class TestPersonWarehouse {
     @Before
     public void setup() {
         PersonWarehouse.getPeople().clear();
-        PersonFactory.createPersonStream(999);
+        PersonFactory.createPersonList(999);
     }
 
     @Test
